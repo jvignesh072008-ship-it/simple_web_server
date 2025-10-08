@@ -21,7 +21,11 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
+<<<<<<< HEAD
 ```
+=======
+'''
+>>>>>>> 76714824663015b29187ec1ea7ec05a301640d54
 web.py
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
@@ -46,11 +50,19 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
+<<<<<<< HEAD
 ```
 # OUTPUT:
 ![alt text](<Screenshot 2025-09-24 104153.png>)
 
 ![alt text](<Screenshot 2025-09-24 104111.png>)
+=======
+'''
 
+# OUTPUT:
+![alt text](<Screenshot 2025-09-24 104153.png>)
+>>>>>>> 76714824663015b29187ec1ea7ec05a301640d54
+
+![alt text](<Screenshot 2025-09-24 104111.png>)
 # RESULT:
 The program for implementing simple webserver is executed successfully.
